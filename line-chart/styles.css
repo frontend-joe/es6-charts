@@ -1,0 +1,64 @@
+:root {
+  --color-primary: #8f44fd;
+  --color-label: #a7a7a7;
+  --color-default: #e2dede;
+  --font-family: "Euclid Circular A";
+}
+
+body {
+  margin: 0;
+  display: grid;
+  place-items: center;
+  background: #f6f6fe;
+  color: #1a1a1a;
+  font-family: var(--font-family);
+}
+
+body,
+html {
+  height: 100%;
+}
+
+h2,
+h3 {
+  font-weight: 400;
+  margin: 0;
+}
+
+h2 {
+  font-size: 22px;
+  margin: 0 0 1px;
+}
+
+h3 {
+  font-size: 12px;
+  color: var(--color-label);
+  margin-bottom: 10px;
+}
+
+.card {
+  background: #ffffff;
+  width: 300px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 50px 100px rgba(0, 0, 0, 0.08);
+}
+
+body .apexcharts-tooltip.apexcharts-theme-light {
+  color: var(--color-text);
+  background: #ffffff;
+  box-shadow: none;
+  border: 1px solid #e7e7e7;
+  /* border: 0; */
+  padding: 8px;
+  /* opacity: 1 !important; */
+}
+
+body .apexcharts-tooltip.apexcharts-theme-light .apexcharts-tooltip-title {
+  display: none;
+}
+
+body
+  .apexcharts-xaxistooltip.apexcharts-xaxistooltip-bottom.apexcharts-theme-light {
+  display: none;
+}
